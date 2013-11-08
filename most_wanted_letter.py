@@ -6,12 +6,12 @@ def checkio(text):
     most_wanted_letter = ''
     temporary_most_wanted = ''
     most_wanted_count = 1
-    #text_length = int(len(text))
     while(len(text)):
         temporary_most_wanted = text[0]
         if text[0].isalpha() and text.count(temporary_most_wanted) >= most_wanted_count and temporary_most_wanted >= text[0]:
               most_wanted_count = text.count(temporary_most_wanted)
               most_wanted_letter = text[0]
+        #need to  remove all intrances of this character
         text = text.strip(text[0])
     return most_wanted_letter
 
