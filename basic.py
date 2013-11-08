@@ -1,11 +1,11 @@
 __author__ = 'Litvinov'
 #python3.3 is inside
-def checkio(els):
-    temp = 0
-    for x in range(3):
-        temp += els[x]
-    els = temp
-    return els
+if __name__ == '__main__' :
 
-if checkio([1, 2, 3, 4, 5, 6]) == 6:
-    print('Done!')
+
+  #from string import maketrans   # Required to call maketrans function.
+
+    str = "read e eee this short text"
+
+    print ('read e eee this short text'.strip(''))
+    #print ('www.example.com'.strip('wcmo.'))
